@@ -13,62 +13,47 @@
 <body>
     <div>
         <header>
-            <div class="container px-2 py-3 lg:w-screen flex flex-col lg:flex-row absolute lg:items-center justify-between">
-                <div class="flex lg:items-center justify-between">
+            <div class="flex container mx-auto max-w-full px-2 py-3 flex flex-col lg:flex-row absolute">
+                <div class="flex justify-between">
                     <a href="/">
-                        <img class="h-9 w-40 mx-12 my-8" src="images/logo-white.png" alt="logo-ine">
+                        <img class="h-9 w-40 mx-4 lg:mx-12 my-8" src="images/logo-white.png" alt="logo-ine">
                     </a>
-                    <button class="mx-12 my-8 cursor-pointer block lg:hidden" id="topNav">
+                    <button class="mx-8 my-8 lg:px-12 cursor-pointer block lg:hidden" id="nav">
                         <i class="fa fa-bars" style="font-size:xx-large; color: aliceblue;" aria-hidden="true"
                             onclick="showNav"></i>
                     </button>
                 </div>
-                <div class="lg:flex flex-grow items-center hidden">
-                    <ul class="flex flex-col lg:flex-row lg:ml-auto">
-                        <li>
-                            <a class="block lg:inline-block hover:text-yellow-400 lg:border-none border-b-2 border-orange-900 py-2 lg:py-6 lg:mx-4 lg:text-lg text-white"
-                                href="">Hồ sơ năng lực</a>
-                        </li>
-                        <li>
-                            <a class="block lg:inline-block hover:text-yellow-400 lg:border-none border-b-2 border-orange-900 py-2 lg:py-6 lg:mx-4 lg:text-lg text-white"
-                                href="">Đơn vị chủ quản</a>
-                        </li>
-                        <li>
-                            <a class="block lg:inline-block hover:text-yellow-400 lg:border-none border-b-2 border-orange-900 py-2 lg:py-6 lg:mx-4 lg:text-lg text-white"
-                                href="">Đối tác chiến lược</a>
-                        </li>
-                        <li>
-                            <a class="block lg:inline-block hover:text-yellow-400 lg:border-none border-b-2 border-orange-900 py-2 lg:py-6 lg:mx-4 lg:text-lg text-white"
-                                href="">Liên hệ</a>
-                        </li>
-                        <li>
-                            <a class="block lg:inline-block hover:text-yellow-400 lg:border-none border-b-2 border-orange-900 py-2 lg:py-6 lg:mx-4 lg:text-lg text-white"
-                                href="">Tuyển dụng</a>
-                        </li>
+                <div class="lg:flex flex-grow items-center justify-end hidden">
+                    <ul class="flex flex-col lg:flex-row">
+                        <li><a href="" class="px-3 text-lg text-white hover:text-yellow-300">Hồ sơ năng lực</a></li>
+                        <li><a href="" class="px-3 text-lg text-white hover:text-yellow-300">Đơn vị chủ quản</a></li>
+                        <li><a href="" class="px-3 text-lg text-white hover:text-yellow-300">Đối tác chiến lược</a></li>
+                        <li><a href="" class="px-3 text-lg text-white hover:text-yellow-300">Liên hệ</a></li>
+                        <li><a href="" class="px-3 text-lg text-white hover:text-yellow-300">Tuyển dụng</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="flex bg-gradient-to-br from-gray-700 to-red-400 h-screen">
-                <div class="flex flex-col mx-24 w-screen text-center justify-center">
-                    <h2 class="text-3xl text-white lg:block lg:inline-block "><span
-                            class="text-red-700">I</span>NTERNATIONAL <span class="text-red-700">E</span>NTERPRISE</h2>
-                    <p class="mt-2 text-2xl italic text-white lg:block lg:inline-block hidden">"Lấy công nghệ làm nền
-                        tảng cho
-                        sự phát triển đột phá
-                        Luôn giữ vững mục tiêu trở thành tổ chức Công nghệ và Dịch vụ số thuộc Top đầu tại khu vực Đông
-                        Nam Á."</p>
-                </div>
+            <div class="bg-gradient-to-br from-gray-700 to-red-400 h-screen">
+                    <!-- <div class="flex flex-col px-8 lg:mx-24 text-center justify-center">
+                        <h2 class="text-3xl text-white lg:block lg:inline-block "><span
+                                class="text-red-700">I</span>NTERNATIONAL <span class="text-red-700">E</span>NTERPRISE</h2>
+                        <p class="mt-2 text-2xl italic text-white lg:block lg:inline-block hidden">"Lấy công nghệ làm nền
+                            tảng cho
+                            sự phát triển đột phá
+                            Luôn giữ vững mục tiêu trở thành tổ chức Công nghệ và Dịch vụ số thuộc Top đầu tại khu vực Đông
+                            Nam Á."</p>
+                    </div> -->
             </div>
         </header>
-        <div>
+        <div class="container mx-auto">
             <p class="mt-10 mb-1 text-2xl text-center text-red-600"><strong>I&E VIETNAM TECHCORP</strong></p>
-            <p class="my-2.5 text-lg text-gray-600 italic text-center">"Ứng dụng nền tảng công nghệ hiện đại trong
+            <p class="px-8 py-2.5 text-lg text-gray-600 italic text-center">"Ứng dụng nền tảng công nghệ hiện đại trong
                 việc số hoá mô hình hoạt động và quản
                 trị tổ chức"</p>
-            <div class="mx-4 my-5 flex flex-col lg:flex-row justify-center">
-                <div class="flex flex-row lg:flex-col mx-2 hover:bg-gray-300 rounded-lg items-center">
-                    <img class="h-24 w-24" src="images/social.png" alt="">
-                    <p class=" m-4 text-red-800 text-justify">Mô hình
+            <div class="mx-2 my-5 flex flex-col lg:flex-row justify-center">
+                <div class="flex flex-col mx-2 hover:bg-gray-300 rounded-lg items-center">
+                    <img class="h-24 w-24" src="images/social2.jpg" alt="">
+                    <p class=" p-4 text-red-800 text-justify">Mô hình
                         <strong>SMAC</strong> là nền
                         tảng mới nhất của ngành CNTT thế giới,
                         tích hợp trí tuệ nhân tạo AI, phân tích
@@ -78,9 +63,9 @@
                         so với mô hình truyền thống.
                     </p>
                 </div>
-                <div class="flex flex-row lg:flex-col mx-2 hover:bg-gray-300 rounded-lg items-center relative">
+                <div class="flex flex-col mx-2 hover:bg-gray-300 rounded-lg items-center">
                     <img class="h-24 w-24" src="images/digital-technology.jpg" alt="">
-                    <p class="m-4 text-red-800 text-justify">Công nghệ số giúp việc nâng cấp, cập
+                    <p class="p-4 text-red-800 text-justify">Công nghệ số giúp việc nâng cấp, cập
                         nhật hệ thống có thể thực hiện ngay lập tức với tốc độ và tính
                         linh hoạt cao nhất, ưu điểm hơn nhiều so với mô hình hoạt động truyền thống nặng về cơ sở vật
                         chất
@@ -88,9 +73,9 @@
                         tầng.
                     </p>
                 </div>
-                <div class="flex flex-row lg:flex-col mx-2 hover:bg-gray-300 rounded-lg items-center">
+                <div class="flex flex-col mx-2 hover:bg-gray-300 rounded-lg items-center">
                     <img class="h-24 w-24" src="images/inevo.jpg" alt="">
-                    <p class="m-4 text-red-800 text-justif">INEVO là mô hình công
+                    <p class="p-4 text-red-800 text-justify">INEVO là mô hình công
                         nghệ lõi được
                         I&E phát triển theo mô hình
                         <strong>SMAC</strong> và <strong>Social ERP</strong>, là một trong số
@@ -103,37 +88,40 @@
             </div>
         </div>
         <div class="bg-gray-300 p-6">
-            <p class="mb-6 text-center text-2xl text-red-700"><strong>INEVO ECOSYSTEM</strong></p>
-            <div class="mx-8 flex flex-col lg:flex-row justify-center">
-                <div>
-                    <img class="lg:h-56 lg:w-auto" src="images/Picture1.png" alt="">
-                </div>
-                <div>
-                    <img src="images/picture2.png" alt="">
+            <div class="container mx-auto">
+                <p class="mb-6 text-center text-2xl text-red-700"><strong>INEVO ECOSYSTEM</strong></p>
+                <div class="mx-8 flex flex-col lg:flex-row justify-center">
+                    <div>
+                        <img class="lg:h-56 lg:w-auto" src="images/Picture1.png" alt="">
+                    </div>
+                    <div>
+                        <img src="images/picture2.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="m-8 flex flex-col">
+        <div class="container mx-auto flex flex-col">
             <p class="mt-10 mb-6 text-center text-2xl text-red-700"><strong>DP&C GROUP</strong></p>
             <div class="flex flex-col">
-                <div class="mx-8 flex flex-col items-center justify-center lg:flex-row">
+                <div class="flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row lg:px-8 items-center justify-items-center justify-center">
                     <a href="https://dongphong.vn/" target="_blank"><img
-                            class="mx-12 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
+                            class="mx-6 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
                             src="images/dongphong.png" alt=""></a>
                     <a href="https://dpcarchitecture.com/" target="_blank"><img
-                            class="mx-12 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
+                            class="mx-6 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
                             src="images/dpcarchitecture.png" alt=""></a>
                     <a href="http://mywallart.com.vn/" target="_blank"><img
-                            class="mx-12 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
+                            class="mx-6 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
                             src="images/logo-wallart.png" alt=""></a>
                     <a href="https://ine.vn" target="_blank"><img
-                            class="mx-12 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
+                            class="mx-6 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
                             src="images/ievietnam.png" alt=""></a>
                 </div>
-                <p class="m-10 text-red-800 text-center justify-center">DP&C Group là tập đoàn đầu tư đa ngành được thành lập từ năm
+                <p class="px-8 py-10 text-red-800 text-justify">DP&C Group là tập đoàn đầu tư đa ngành được thành lập
+                    từ năm
                     2002, hoạt động
                     trên 3 lĩnh vực cốt lõi là đầu tư xây dựng (Construction Investment) , thương mại (Commerce) và giải
-                    pháp công nghệ số (IT Solutions) .Là công ty thành viên của Tập đoàn, I&E mang trong mình sứ
+                    pháp công nghệ số (IT Solutions) . Là công ty thành viên của Tập đoàn, <strong>I&E</strong> mang trong mình sứ
                     mệnh
                     xây dựng hệ thống công nghệ lõi đưa DP&C trở thành một trong những đơn vị tiên phong hoạt động trên
                     nền tảng công nghệ số. Trong ngắn hạn, các hệ thống công nghệ được ứng dụng trong hoạt động vận hành
@@ -143,61 +131,71 @@
                 </p>
             </div>
         </div>
-        <div class="bg-black opacity-75">
-            <div class="flex flex-col lg:flex-row justify-center">
-                <div class="flex flex-col mx-3 lg:flex-row">
-                    <div class="max-w-2xl">
-                        <div class="mt-8 flex">
-                            <img class="mx-3 h-8 w-auto" src="images/icon.png" alt="">
-                            <p class="m-1 text-red-700 font-bold">CÔNG TY TNHH PHÁT TRIỂN GIÁO DỤC VÀ CÔNG NGHỆ I&E VIỆT
-                                NAM</p>
+        <div>
+
+        </div>
+        <div class="bg-black opacity-75 px-8">
+            <div class="container mx-auto">
+                <div class="justify-center">
+                    <div class="flex flex-col lg:flex-row justify-between">
+                        <div class="max-w-2xl">
+                            <div class="mt-8 flex items-center">
+                                <img class="px-1 h-8 w-auto" src="images/icon.png" alt="">
+                                <p class="p-1 text-red-700 font-bold">CÔNG TY TNHH PHÁT TRIỂN GIÁO DỤC VÀ CÔNG NGHỆ I&E
+                                    VIỆT
+                                    NAM</p>
+                            </div>
+                            <p class="p-1 text-base text-white"><i class="mr-2 fa fa-home"></i><strong>Trụ sở
+                                    chính:</strong> Tầng 17, Tòa nhà M5, số
+                                91 Nguyễn Chí Tranh, Đống
+                                Đa, Hà Nội</p>
+                            <p class="p-1 text-base text-white"><i class="mr-2 fa fa-home"></i><strong>Trung tâm đào tạo
+                                    ứng
+                                    dụng công nghệ cao:</strong>
+                                Tầng 20, Tòa nhà M3 -
+                                M4, số 91 Nguyễn Chí Thanh, Đống Đa, Hà Nội</p>
+                            <p class="p-1 text-base text-white"><i class="mr-2 fa fa-home"></i><strong>Văn phòng đại
+                                    diện
+                                    tại Mỹ:</strong> 205 Highland
+                                Avenue Troy - Alabama -
+                                36081, USA</p>
+                            <p class="p-1 text-base text-white"><i class="mr-2 fa fa-phone"></i><strong>Tel:</strong>
+                                +8424.6686.9081</p>
+                            <p class="p-1 text-base text-white"><i
+                                    class="mr-2 fa fa-phone-square"></i><strong>Hotline:</strong> +84.933.916.989</p>
+                            <p class="p-1 text-base text-white"><i
+                                    class="mr-2 far fa-envelope"></i><strong>Email:</strong>
+                                <span class="text-orange-500">info@inevn.com</span>
+                            </p>
+                            <p class="p-1 text-base text-white"><i
+                                    class="mr-2 far fa-envelope"></i><strong>Website:</strong> <a
+                                    class="text-orange-500" href="/index.html">ine.vn</a></p>
                         </div>
-                        <p class="m-1 text-base text-white"><i class="mx-2 fa fa-home"></i><strong>Trụ sở
-                                chính:</strong> Tầng 17, Tòa nhà M5, số
-                            91 Nguyễn Chí Thanh, Đống
-                            Đa, Hà Nội</p>
-                        <p class="m-1 text-base text-white"><i class="mx-2 fa fa-home"></i><strong>Trung tâm đào tạo ứng
-                                dụng công nghệ cao:</strong>
-                            Tầng 20, Tòa nhà M3 -
-                            M4, số 91 Nguyễn Chí Thanh, Đống Đa, Hà Nội</p>
-                        <p class="m-1 text-base text-white"><i class="mx-2 fa fa-home"></i><strong>Văn phòng đại diện
-                                tại Mỹ:</strong> 205 Highland
-                            Avenue Troy - Alabama -
-                            36081, USA</p>
-                        <p class="m-1 text-base text-white"><i class="mx-2 fa fa-phone"></i><strong>Tel:</strong>
-                            +8424.6686.9081</p>
-                        <p class="m-1 text-base text-white"><i
-                                class="mx-2 fa fa-phone-square"></i><strong>Hotline:</strong> +84.933.916.989</p>
-                        <p class="m-1 text-base text-white"><i class="mx-2 far fa-envelope"></i><strong>Email:</strong>
-                            <span class="text-orange-500">info@inevn.com</span></p>
-                        <p class="m-1 text-base text-white"><i
-                                class="mx-2 far fa-envelope"></i><strong>Website:</strong> <a class="text-orange-500"
-                                href="/index.html">ine.vn</a></p>
-                    </div>
-                    <div class="mt-8 flex flex-col lg:mx-8 my-2 ">
-                        <h5 class="mx-3 text-2xl text-red-700">HOME</h5>
-                        <a class="m-1 text-base text-white" href="">Hồ sơ năng lực</a>
-                        <a class="m-1 text-base text-white" href="">Đơn vị chủ quản</a>
-                        <a class="m-1 text-base text-white" href="">Đối tác chiến lược</a>
-                        <a class="m-1 text-base text-white" href="">Liên hệ</a>
-                        <a class="m-1 text-base text-white" href="">Tuyển dụng</a>
-                    </div>
-                    <div class="mt-8 flex flex-col my-2">
-                        <p class="mx-3 text-2xl text-red-700">LIÊN HỆ</p>
-                        <input class="m-2 max-w-full" type="text" size="40" placeholder="Fullname">
-                        <input class="m-2 max-w-full" type="text" placeholder="Email">
-                        <textarea class="m-2 max-w-full" placeholder="Message"></textarea>
-                        <button class="m-2 px-8 bg-red-700 text-white" type="button">Send</button>
+                        <div class="flex flex-col">
+                            <h5 class="mt-6 mx-2 my-1 text-2xl text-red-700">HOME</h5>
+                            <a class="mx-2 my-1 text-base text-white hover:underline" href="">• Hồ sơ năng lực</a>
+                            <a class="mx-2 my-1 text-base text-white hover:underline" href="">• Đơn vị chủ quản</a>
+                            <a class="mx-2 my-1 text-base text-white hover:underline" href="">• Đối tác chiến lược</a>
+                            <a class="mx-2 my-1 text-base text-white hover:underline" href="">• Liên hệ</a>
+                            <a class="mx-2 my-1 text-base text-white hover:underline" href="">• Tuyển dụng</a>
+                        </div>
+                        <div class="flex flex-col">
+                            <p class="mt-6 mx-2 my-1 text-2xl text-red-700">LIÊN HỆ</p>
+                            <input class="m-2 my-1 max-w-full" type="text" size="40" placeholder="Fullname">
+                            <input class="m-2 my-1 max-w-full" type="text" placeholder="Email">
+                            <textarea class="m-2 my-1 max-w-full" placeholder="Message"></textarea>
+                            <button class="m-2 my-1 px-8 bg-red-700 text-white rounded" type="button">Send</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="py-3 text-center">
-                <a class="animate-pulse text-xl text-white hover:text-yellow-400"
-                    href="https://www.dpcgroup.com.vn/">Thành viên của DP&C group</a>
+                <hr class="my-4 bg-blue-300">
+                <div class="pb-4 text-center">
+                    <a class="animate-pulse text-xl text-white hover:text-yellow-400"
+                        href="https://www.dpcgroup.com.vn/" target="_blank">Thành viên của DP&C group</a>
+                </div>
             </div>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 
