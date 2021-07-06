@@ -8,7 +8,7 @@
     <title>I&E Vietnam</title>
     <link href="https://unpkg.com/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <style>
         .active {
             display: block;
@@ -17,19 +17,19 @@
 </head>
 
 <body>
-    <header class="bg-gradient-to-br from-gray-700 to-red-400 h-screen">
-        <div class="container mx-auto max-w-full px-2 py-3 flex flex-col lg:flex-row">
-            <div>
-                <div class="flex justify-between">
-                    <a href="/">
-                            <img class="h-9 w-40 mx-4 lg:mx-12 my-8" src="images/logo-white.png" alt="logo-ine">
-                    </a>
-                    <button class="mx-8 my-8 lg:px-12 cursor-pointer block lg:hidden">
-                        <i id="navbtn" class="fa fa-bars" style="font-size:xx-large; color: aliceblue;" aria-hidden="true"></i>
-                    </button>
-                </div>
+    <header>
+        <div class="container mx-auto max-w-full px-2 py-3 flex flex-col lg:flex-row absolute">
+            <div class="flex justify-between">
+                <a href="">
+                    <img class="h-9 w-40 mx-4 lg:mx-12 my-8" src="images/logo-white.png" alt="logo-ine">
+                </a>
+                <button class="mx-8 my-8 lg:px-12 cursor-pointer block lg:hidden">
+                    <i id="navbtn" class="fa fa-bars" style="font-size:xx-large; color: aliceblue;"
+                        aria-hidden="true"></i>
+                </button>
             </div>
-            <div id="mobileMenu" class="py-2 bg-gray-600 lg:bg-transparent hidden lg:mx-10 lg:flex flex-grow items-center justify-end">
+            <div id="mobileMenu"
+                class="py-2 bg-purple-500 lg:bg-transparent hidden lg:inline-block lg:mx-10 lg:flex flex-grow lg:items-center rounded-lg justify-end">
                 <ul class="flex flex-col lg:flex-row">
                     <li><a href="" class="px-3 text-lg text-white hover:text-yellow-300">Hồ sơ năng lực</a></li>
                     <li><a href="https://www.dpcgroup.com.vn/" target="_blank"
@@ -41,13 +41,13 @@
                 </ul>
             </div>
         </div>
-        <div class="container mx-auto text-center justify-center">
-            <div class="px-8 lg:mx-24 flex flex-col">
-                <h2 class="text-3xl text-white lg:block lg:inline-block"><span class="text-yellow-400">I</span>NTERNATIONAL
-                    <span class="text-yellow-400">E</span>NTERPRISE</h2>
-                <p class="mt-2 text-2xl italic text-white lg:block lg:inline-block hidden">"Lấy công nghệ làm nền
-                    tảng cho
-                    sự phát triển đột phá
+        <div class="bg-gradient-to-br from-gray-700 to-red-400">
+            <div class="h-screen flex flex-col text-center justify-center">
+                <h2 class="px-14 text-3xl text-white md:block-inline"><span class="text-yellow-400">I</span>NTERNATIONAL
+                    <span class="text-yellow-400">E</span>NTERPRISE
+                </h2>
+                <p class="px-20 mt-2 text-2xl italic text-white hidden lg:block lg:block-inline">"Lấy công nghệ làm nền
+                    tảng cho sự phát triển đột phá
                     Luôn giữ vững mục tiêu trở thành tổ chức Công nghệ và Dịch vụ số thuộc Top đầu tại khu vực Đông
                     Nam Á."</p>
             </div>
@@ -60,7 +60,7 @@
             trị tổ chức"</p>
         <div class="mx-2 my-5 flex flex-col lg:flex-row justify-center">
             <div class="flex flex-col mx-2 hover:bg-gray-300 rounded-lg items-center">
-                <img class="h-24 w-24" src="images/social2.jpg" alt="">
+                <img class="h-24 w-24" src="images/social.jpg" alt="">
                 <p class=" p-4 text-red-800 text-justify">Mô hình
                     <strong>SMAC</strong> là nền
                     tảng mới nhất của ngành CNTT thế giới,
