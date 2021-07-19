@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I&E Vietnam</title>
-    <link href="https://unpkg.com/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@2.2.4/dist/tailwind.min.css" rel="stylesheet">
     <link rel="icon" href="./images/icon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -24,18 +24,18 @@
                 <a href="">
                     <img class="h-9 w-40 mx-4 lg:mx-12 my-8" src="images/logo-white.png" alt="logo-ine">
                 </a>
-                <button class="mx-8 my-8 lg:px-12 cursor-pointer block lg:hidden">
-                    <i id="navbtn" class="fa fa-bars" style="font-size:xx-large; color: aliceblue;"
-                        aria-hidden="true"></i>
-                </button>
+                <div class=" block lg:hidden">
+                    <i id="navbtn" class="fa fa-bars fa-2x text-white mx-8 my-8 lg:px-12 cursor-pointer"
+                            aria-hidden="true"></i>
+                </div>
             </div>
             <div id="mobileMenu"
                 class="bg-purple-500 lg:bg-transparent hidden lg:inline-block lg:mx-10 lg:flex flex-grow lg:items-center rounded-lg justify-end">
                 <ul class="flex flex-col lg:flex-row">
                     <li><a href="" class="px-3 text-lg text-white hover:text-yellow-300">Hồ sơ năng lực</a></li>
-                    <li><a href="https://www.dpcgroup.com.vn/" target="_blank"
+                    <li><a href="https://www.dpcgroup.com.vn/" target="_blank" aria-label="Read more about Seminole tax hike"
                             class="px-3 text-lg text-white hover:text-yellow-300">Đơn vị chủ quản</a></li>
-                    <li><a href="https://vmpec.vn/" target="_blank"
+                    <li><a href="https://vmpec.vn/" target="_blank" aria-label="Read more about Seminole tax hike"
                             class="px-3 text-lg text-white hover:text-yellow-300">Đối tác chiến lược</a></li>
                     <li><a href="" class="px-3 text-lg text-white hover:text-yellow-300">Liên hệ</a></li>
                     <li><a href="" class="px-3 text-lg text-white hover:text-yellow-300">Tuyển dụng</a></li>
@@ -114,16 +114,16 @@
         <div class="flex flex-col">
             <div
                 class="flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row lg:px-8 items-center justify-items-center justify-center">
-                <a href="https://dongphong.vn/" target="_blank"><img
+                <a href="https://dongphong.vn/" target="_blank" aria-label="Read more about Seminole tax hike"><img
                         class="mx-6 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
                         src="images/dongphong.png" alt=""></a>
-                <a href="https://dpcarchitecture.com/" target="_blank"><img
+                <a href="https://dpcarchitecture.com/" target="_blank" aria-label="Read more about Seminole tax hike"><img
                         class="mx-6 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
                         src="images/dpcarchitecture.png" alt=""></a>
-                <a href="http://mywallart.com.vn/" target="_blank"><img
+                <a href="http://mywallart.com.vn/" target="_blank" aria-label="Read more about Seminole tax hike"><img
                         class="mx-6 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
                         src="images/logo-wallart.png" alt=""></a>
-                <a href="https://ine.vn" target="_blank"><img
+                <a href="https://ine.vn" target="_blank" aria-label="Read more about Seminole tax hike"><img
                         class="mx-6 my-3 h-12 w-48 transition transform hover:scale-125 duration-300"
                         src="images/ievietnam.png" alt=""></a>
             </div>
@@ -170,16 +170,16 @@
                                 tại Mỹ:</strong> 205 Highland
                             Avenue Troy - Alabama -
                             36081, USA</p>
-                        <p class="p-1 text-base text-white"><i class="mr-2 fa fa-phone"></i><strong>Tel:</strong>
-                            +8424.6686.9081</p>
-                        <p class="p-1 text-base text-white"><i
-                                class="mr-2 fa fa-phone-square"></i><strong>Hotline:</strong> +84.933.916.989</p>
-                        <p class="p-1 text-base text-white"><i class="mr-2 far fa-envelope"></i><strong>Email:</strong>
+                        <div class="p-1 text-base text-white"><i class="mr-2 fa fa-phone"></i><strong>Tel:</strong>
+                            +8424.6686.9081</div>
+                        <div class="p-1 text-base text-white"><i
+                                class="mr-2 fa fa-phone-square"></i><strong>Hotline:</strong> +84.933.916.989</div>
+                        <div class="p-1 text-base text-white"><i class="mr-2 far fa-envelope"></i><strong>Email:</strong>
                             <span class="text-orange-500">info@inevn.com</span>
-                        </p>
-                        <p class="p-1 text-base text-white"><i
+                        </div>
+                        <div class="p-1 text-base text-white"><i
                                 class="mr-2 far fa-envelope"></i><strong>Website:</strong> <a class="text-orange-500"
-                                href="/index.html">ine.vn</a></p>
+                                href="/index.html" aria-label="Read more about Seminole tax hike">ine.vn</a></div>
                     </div>
                     <div class="flex flex-col">
                         <h5 class="mt-6 mx-2 my-1 text-2xl text-red-700">HOME</h5>
@@ -200,7 +200,7 @@
             </div>
             <hr class="my-4 bg-blue-300">
             <div class="pb-4 text-center">
-                <a class="animate-pulse text-xl text-white hover:text-yellow-400" href="https://www.dpcgroup.com.vn/"
+                <a class="animate-pulse text-xl text-white hover:text-yellow-400" href="https://www.dpcgroup.com.vn/" aria-label="Read more about Seminole tax hike"
                     target="_blank">Thành viên của DP&C group</a>
             </div>
         </div>
